@@ -16,6 +16,8 @@
   justify-content: space-around;
   align-items: center;
   margin: 20px auto;
+
+  
 }
 .links{
   display: flex;
@@ -30,8 +32,15 @@
 }
 .cadastrar{
   padding: 12px 18px;
-  border-radius: 8px;
+  border-radius: 6px;
   background-color: #8e2424;
   color: #ffffffd2;
   border: none;
+}
+.logo,.buttons{
+  flex: 1;
+  text-align: center;
+}
+ .container-links{
+  flex: 2;
 }
