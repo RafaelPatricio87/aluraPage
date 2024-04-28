@@ -10,18 +10,22 @@
   color: #667085;
   font-weight: 500;
 }
+.img-talento{
+  display: block;
+  max-width: 100%;
+}
 .navbar{
   max-width: 1440px;
   display: flex;
   justify-content: space-around;
   align-items: center;
   margin: 20px auto;
-
-  
+  padding-bottom: 20px;
+  padding-top: 10px;
 }
 .links{
   display: flex;
-  gap: 22px;
+  gap: 30px;
   cursor: pointer;
 }
 .entrar{
@@ -43,4 +47,119 @@
 }
  .container-links{
   flex: 2;
+}
+.sobre-nos{
+  margin: 0px auto;
+  max-width: 1440px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 5rem;
+}
+.sobre{
+  color: #8e2424;
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+.titulo{
+  text-align: center;
+   font-size: 48px;
+   font-weight: 600;
+   color: #101828;
+   margin-bottom: 20px;
+}
+.paragrafo{
+  font-size: 20px;
+  font-weight: 500;
+  color: #667085;
+  text-align: center;
+  max-width: 800px;
+  line-height: 1.5;
+}
+.informacoes{
+  margin: 0 auto;
+  max-width: 1440px;
+  padding-bottom: 30px;
+}
+.info-container{
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-around;
+  max-width: 1280px;
+}
+.info{
+  font-size: 60px;
+  font-weight: 600;
+  color: #8e2424;
+  margin: 20px 0;
+}
+.descricao{
+  display: inline-block;
+  font-size: 18px;
+  color: #101828;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+.paragrafo-2{
+   max-width: 280px;
+   line-height: 1.5;
+}
+.vagas{
+  max-width: 1440px;
+  margin: 0 auto;
+}
+.talentos{
+  max-width: 1280px;
+  margin: 60px auto;
+  text-align: center;
+  
+}
+.talentos span {
+  display: inline-block;
+  font-size: 14px;
+  font-weight: 500;
+  color: #8e2424;
+  margin: 20px 0;
+}
+.talentos h3{
+  font-size: 36px;
+  font-weight: 600;
+  color: #101828;
+  margin-bottom: 12px;
+}
+.talentos p {
+  padding: 10px 0;
+  font-size: 20px;
+  color: #667085;
+  margin-bottom: 30px;
+}
+.vagas-abertas{
+  margin: 0 auto;
+  max-width: 1280px;
+  padding-bottom: 40px;
+}
+.container-vagas{
+  margin: 0 auto;
+  max-width: 768px;
+}
+.div-design {
+ border: solid 1px #eff1f3;
+ border-radius: 10px;
+ padding: 10px;
+ margin-bottom: 14px;
+}
+.titulo-vagas{
+  font-size: 18px;
+  color: #101828;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+.sub-title-vagas{
+  font-size: 18px;
+  color: #101828;
+  font-weight: 600;
+  margin-bottom: 30px;
+}
+.salario{
+ margin-left: 30px;
 }
